@@ -4,13 +4,12 @@
 <br/>
 * Spring 사이트 :  https://spring.io/
 ## 프레임워크(Frame Work)
-<hr/>
+
 
 * ### 목적에 맞게 필요한 것을 이용할 수 있도록 만들어놓은 ```구조화된 틀```
 <br/>
 
 ## Spring의 특징
-<hr/>
 
 * **IoC(Inversion of Control)** : 원래 컨트롤의 흐름이 뒤집어졌다는 의미
     - 객체를 만들어서 관리하던 책임을 프레임워크로 넘겨졌다는 의미를 뜻함
@@ -21,7 +20,7 @@
     
 > # 1. IoC
 ## IoC Container
-<hr/>
+
 
 - IoC를 구현한 프레임워크
 - 객체의 생성, 초기화, 의존성 처리 등을 자동으로 실행할 수 있다.
@@ -30,7 +29,6 @@
 <br/>
 
 ## ApplicationContext (IoC Container)구성
-<hr/>
 
 - 가장 먼저 해야 할 일은 ApplicationContext( = interface)를 만드는 것!
 1. **xml 기반(spring legacy)**
